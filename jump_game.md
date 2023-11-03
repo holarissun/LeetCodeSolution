@@ -32,7 +32,7 @@ Return the minimum number of jumps to reach nums[n - 1]. The test cases are gene
 ### Q45: Solution:
 
 
-```python3:
+```python3
 class Solution:
     def jump(self, nums: List[int]) -> int:
         max_reachable = 0
