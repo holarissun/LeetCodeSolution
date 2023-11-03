@@ -10,7 +10,7 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
 
 ### Q121: Solution:
 
-```python3:
+```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         buy_in_price = prices[0]
@@ -33,7 +33,7 @@ Find and return the maximum profit you can achieve.
 
 ### Q122: Solution:
 
-```python3:
+```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         tot_profit = 0
@@ -56,7 +56,7 @@ Note: You may not engage in multiple transactions simultaneously (i.e., you must
 
 ### Q123: Solution:
 
-```python3:
+```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         f1, f2, f3, f4 = -prices[0], 0, -prices[0], 0
@@ -79,7 +79,7 @@ Note: You may not engage in multiple transactions simultaneously (i.e., you must
 
 ### Q188: Solution
 
-```python3:
+```python3
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         f = [-prices[0], 0] * k
